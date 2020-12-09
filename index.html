@@ -362,6 +362,12 @@
             }
             
           }
+
+          .crop {
+        width: 248px;
+        height: 230px;
+        overflow: hidden;
+    }
         </style>
 
         <div class="container">
@@ -369,7 +375,7 @@
             
             <div id="viggy" class="col-md-4 col-lg-3 ftco-animate d-flex">
               <div class="staff">
-                <img src="images/viggypro.jpg" width="248px">
+                <div class="crop"><img src="images/viggypro.jpg" width="248px"></div>
                 <div id="labels" class="text pt-3 px-3 pb-4 text-center">
                   <h3>Vignav Ramesh</h3>
                   <span class="position mb-2">Founder, President,<br>Lead Instructor</span>
@@ -379,20 +385,21 @@
             </div>
             <div id="bosco" class="col-md-4 col-lg-3 ftco-animate d-flex" >
               <div class="staff">
-                <img src="images/bosco.jpeg" width="247px">
-                <div id="labels" class="text pt-3 px-3 pb-4 text-center" >
-                  <h3>Joe Bosco</h3>
-                  <span class="position mb-2">Principal @ Foothill Elementary School</span>
-                  
+                <div class="crop"><img src="images/sat.png" width="247px" ></div>
+                <div id="labels" class="text pt-3 px-3 pb-4 text-center">
+                  <h3>Satyajit Kumar</h3>
+                  <span class="position mb-2">Mentor, Curriculum Designer</span>
                 </div>
               </div>
             </div>
             <div id="sat" class="col-md-4 col-lg-3 ftco-animate d-flex" >
+              
               <div class="staff">
-                <img src="images/sat.png" width="248px" >
+                <div class="crop"><img src="images/isha.png" width="248px"></div>
                 <div id="labels" class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Satyajit Kumar</h3>
-                  <span class="position mb-2">Session 1 Lead Mentor</span>
+                  <h3>Isha Goswami</h3>
+                  <span class="position mb-2">Mentor, Curriculum <br>Designer</span>
+                  
                 </div>
               </div>
             </div>
@@ -403,7 +410,7 @@
             
             <div id="viggy2" class="col-md-4 col-lg-3 ftco-animate d-flex" >
               <div class="staff">
-                <img src="images/aditya.png" width="248px">
+                <div class="crop"><img src="images/aditya.png" width="248px"></div>
                 <div id="labels" class="text pt-3 px-3 pb-4 text-center">
                   <h3>Aditya Venkatram</h3>
                   <span class="position mb-2">Mentor, Curriculum <br>Designer</span>
@@ -413,7 +420,7 @@
             </div>
             <div  id="bosco2" class="col-md-4 col-lg-3 ftco-animate d-flex" >
               <div class="staff">
-                <img src="images/kathan_headshot.png" width="247px">
+                <div class="crop"><img src="images/kathan_headshot.png" width="247px"></div>
                 <div id="labels" class="text pt-3 px-3 pb-4 text-center">
                   <h3>Kathan Reddy</h3>
                   <span class="position mb-2">Mentor, Curriculum <br>Designer</span>
@@ -421,7 +428,7 @@
                 </div>
               </div>
             </div>
-            <div id="sat2" class="col-md-4 col-lg-3 ftco-animate d-flex" >
+            <!-- <div id="sat2" class="col-md-4 col-lg-3 ftco-animate d-flex" >
               <div class="staff">
                 <img src="images/isha.png" width="248px">
                 <div id="labels" class="text pt-3 px-3 pb-4 text-center">
@@ -430,15 +437,142 @@
                   
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
-          <br><br>
+          <!-- <br><br> -->
         </div>
 
 
       </div>
     </div>
     <!-- .section -->
+
+
+    <div class="site-section fund-raisers bg-light">
+      <div class="container">
+        <div class="row mb-3 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Partners</h2>
+            <p class="lead">
+              Meet the representatives of CoderDojo Saratoga's partner schools.
+            </p>
+           
+          </div>
+        </div>
+
+        <style>
+          @media only screen and (min-width: 550px) {
+            #react{
+              width: 500px
+            }
+            #words{
+              display: none
+            }
+            
+            #java {
+              height: 289px
+            }
+            #viggy {
+              position: relative; left: 50px;
+            }
+            #bosco {
+              position: relative; left: 120px;
+            }
+            #sat {
+              position: relative; left: 200px;
+            }
+            #viggy2 {
+              position: relative; left: 50px;
+            }
+            #viggy3 {
+              position: relative; left: 50px; 
+            }
+            #bosco2 {
+              position: relative; left: 120px;
+            }
+            #sat2 {
+              position: relative; left: 200px;
+            }
+          }
+
+          @media only screen and (max-width: 549px) {
+            #react {
+              width: 350px
+            }
+            #logo{
+              display: none
+            }
+            #java {
+              height: 194px
+            }
+            #labels { 
+              width: 247px;
+            }
+            #bosco {
+              position: relative; top: 30px;
+            }
+            #sat {
+              position: relative; top: 60px;
+            }
+            #viggy2 {
+              position: relative; top: 30px;
+            }
+            #bosco2 {
+              position: relative; top: 60px;
+            }
+            #sat2 {
+              position: relative; top: 90px;
+              padding-bottom: 60px;
+            }
+            
+          }
+        </style>
+
+        <div class="container">
+          <div class="row">
+            
+            <div id="viggy" class="col-md-4 col-lg-3 ftco-animate d-flex">
+              <div class="staff">
+                <div class="crop"><img src="images/bosco.jpeg" width="248px"></div>
+                <div id="labels" class="text pt-3 px-3 pb-4 text-center" >
+                  <h3>Joe Bosco</h3>
+                  <span class="position mb-2">Principal @ Foothill Elementary School</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div  id="bosco2" class="col-md-4 col-lg-3 ftco-animate d-flex" >
+              <div class="staff">
+                <div class="crop"><img src="images/eveonne-lockhart-77916810.jpg" width="247px"></div>
+                <div id="labels" class="text pt-3 px-3 pb-4 text-center">
+                  <h3>Eveonne Lockhart</h3>
+                  <span class="position mb-2">After School Enrichment Coordinator @ Redwood Middle School</span>
+                  
+                </div>
+              </div>
+            </div>
+            
+            <!-- <div id="sat" class="col-md-4 col-lg-3 ftco-animate d-flex" >
+              <div class="staff">
+                <div class="crop"><img src="images/eveonne-lockhart-77916810.jpg" width="247px"></div>
+                <div id="labels" class="text pt-3 px-3 pb-4 text-center" >
+                  <h3>Joe Bosco</h3>
+                  <span class="position mb-2">Principal @ Foothill Elementary School</span>
+                  
+                </div>
+              </div>
+            </div> -->
+            
+          </div>
+<br><br>
+          
+          <!-- <br><br> -->
+        </div>
+</div>
+</div>
+
+
+
 
     <div
       class="featured-section overlay-color-2"
